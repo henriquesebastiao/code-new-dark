@@ -1,7 +1,15 @@
+VERSION = 0.0.1
+
 build:
 	vsce package
 
 install: build
-	code --install-extension code-new-dark-0.0.1.vsix
+	code --install-extension code-new-dark-$(VERSION).vsix
 
-.PHONY: build install
+test:
+	vsce package && code --install-extension code-new-dark-$(VERSION).vsix
+
+clean:
+	rm -f *.vsix
+
+.PHONY: build install test clean
