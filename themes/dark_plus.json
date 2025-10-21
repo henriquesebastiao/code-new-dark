@@ -17,6 +17,35 @@
 			}
 		},
 		{
+			"name": "Magic methods / Dunder methods (Python)",
+			"scope": [
+				"support.function.magic.python",
+				"support.magic.function.python"
+			],
+			"settings": {
+				"foreground": "#cc009c"
+			}
+		},
+		{
+			"name": "Self (Python)",
+			"scope": [
+				"variable.parameter.function.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#ac62a3",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Property (Python)",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#66A6FF"
+			}
+		},
+		{
 			"name": "Types declaration and references",
 			"scope": [
 				"support.class",

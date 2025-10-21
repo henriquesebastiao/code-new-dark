@@ -1,12 +1,12 @@
 {
-  "name": "jetbrains-new-dark",
-  "displayName": "JetBrains New Dark",
-  "description": "A theme for Visual Studio Code that closely resembles the new JetBrains Dark theme.",
+  "name": "code-new-dark",
+  "displayName": "Code New Dark",
+  "description": "A dark theme for Visual Studio Code.",
   "version": "0.0.1",
-  "publisher": "MoBalic",
+  "publisher": "HenriqueSebastio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mobalti/jetbrains-new-dark"
+    "url": "https://github.com/henriquesebastiao/code-new-dark"
   },
   "engines": {
     "vscode": "^1.78.0"
@@ -32,9 +32,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "JetBrains New Dark",
+        "label": "Code New Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/JetBrains New Dark-color-theme.json"
+        "path": "./themes/Code New Dark-color-theme.json"
       }
     ]
   },
